@@ -43,8 +43,13 @@ def read_from_hash(hash, key)
 end
 
 def update_counting_hash(hash, key)
+<<<<<<< HEAD
   if hash.key?(key) == true 
     hash[key] += 1 
+=======
+  if hash.key?(key) = true do
+    hash[key] + 1 
+>>>>>>> 4a317f265ba2d73ad191e7345a7cfa2d40c8e280
   else
     hash[key]
     hash[key] = 1 
